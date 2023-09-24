@@ -1,0 +1,38 @@
+
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{ mathrsfs }
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[margin=0.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{ulem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{hyperref}
+\usepackage[autostyle]{csquotes}
+
+\usepackage{cancel}
+\renewcommand{\i}{\textit}
+\renewcommand{\b}{\textbf}
+\newcommand{\q}{\enquote}
+
+
+
+
+\begin{document}
+
+\begin{huge}
+
+{\setstretch{0.0}{
+Scope [ Javascript Version ]
+
+I wrote the first version of Scope in C, basically for speed (lots of layers). I wanted to see the evolving model graphed like the typical function $f : \Bbb R \to \Bbb R$.
+Eventually I added an illustration of evolving network itself, graphing magnitude as thickness and sign as color. Every detail (such as the activations of individual neurons) could be modified \q{live.}
+
+All this detail is too messy for the Browser, so I wrote this browser version to offer the basic experience. While I have used dual numbers in some programs to train models, this version of Scope uses classic back-propagation. Some versions featured 3 functions learning on the same graph, and it's not hard to add them back in if one is interested. 
+ }}
+\end{huge}
+\end{document}
