@@ -1,0 +1,20 @@
+
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+
+button {
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+}

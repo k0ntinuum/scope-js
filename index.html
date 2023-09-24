@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+    </style>
+    <link href="index.css" rel="stylesheet" />
+    <canvas id="plot_canvas" onclick="load_new_data()" width=1000 height=500></canvas>
+    <br>
+    <canvas id="f_canvas" onclick="reset_f()" width=1000 height=500 ></canvas>
+    <!-- <canvas id="g_canvas" onclick="reset_g()" width=600 height=400 ></canvas> -->
+    <br>
+    <script src="graph.js"></script>
+    <script src="net.js"></script>
+    <script src="data.js"></script>
+    <script src="plot.js"></script>
+    <script src="global.js"></script>
+    <script src="main.js"></script>
+    <button onclick="randomizeWeights()">w</button>
+    <button onclick="load_new_data()">d</button>
+    <button onclick="reset_f()">f</button>
+
+</html>
