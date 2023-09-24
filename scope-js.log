@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.3)  24 SEP 2023 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.3)  24 SEP 2023 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,7 +478,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 
-Output written on scope-js.pdf (1 page, 45889 bytes).
+Output written on scope-js.pdf (1 page, 45739 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
