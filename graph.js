@@ -4,7 +4,6 @@ function draw_structure_frame(f) {
     f.context.lineWidth = 15;
     f.context.beginPath();
     f.context.rect(0,0,structure_W,structure_H);
-    //f.context.strokeStyle = f.color;
     f.context.stroke();
 }
 

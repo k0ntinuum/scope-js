@@ -28,7 +28,7 @@ function reset_f() {
 }
 
 reset_f();
-data = new_data(10);
+data = new_data(7);
 
 setInterval(update_models,1);
 setInterval(plot_models,50);
