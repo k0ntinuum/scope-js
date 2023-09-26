@@ -191,5 +191,5 @@ function randomizeWeights() {
     f.bias = random_vector(f.num_nodes*f.num_nodes, -0.001,0.001);
 }
 
-
+//
 
